@@ -34,7 +34,7 @@ export default function Countdown({ nftInfo }) {
           {timeRemaining.seconds}s
         </div>
       ) : (
-        <div className="de_countdown">EXPIRED</div>
+        <div className="de_countdown">TIMEOUT</div>
       )}
     </>
   );
