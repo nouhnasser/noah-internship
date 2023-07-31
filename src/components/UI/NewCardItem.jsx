@@ -5,9 +5,7 @@ export default function NewCardItem({ nft }) {
   return (
     <div className="nft__item">
       <div className="author_list_pp">
-        <Link
-          to={`/author/${nft.authorId}`}
-        >
+        <Link to={`/author/${nft.authorId}`}>
           <img className="lazy" src={nft.authorImage} alt="" />
           <i className="fa fa-check"></i>
         </Link>
