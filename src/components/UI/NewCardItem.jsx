@@ -7,9 +7,6 @@ export default function NewCardItem({ nft }) {
       <div className="author_list_pp">
         <Link
           to={`/author/${nft.authorId}`}
-          data-bs-toggle="tooltip"
-          data-bs-placement="top"
-          title="Creator: Monica Lucas" //NEED TO FIX THIS
         >
           <img className="lazy" src={nft.authorImage} alt="" />
           <i className="fa fa-check"></i>
