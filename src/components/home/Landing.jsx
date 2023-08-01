@@ -13,7 +13,12 @@ const Landing = () => {
       style={{ background: `url(${backgroundImage}) bottom / cover` }}
     >
       <div className="v-center">
-        <div className="container">
+        <div
+          className="container"
+          data-aos="fade-up"
+          data-aos-easing="ease-in"
+          data-aos-delay="100"
+        >
           <div className="row align-items-center">
             <div className="col-md-6">
               <div className="spacer-single"></div>

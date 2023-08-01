@@ -29,12 +29,19 @@ const TopSellers = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="text-center">
-              <h2>Top Sellers</h2>
+              <h2  data-aos="fade-in"
+                 data-aos-duration="1200"
+                 data-aos-delay="200"
+                 data-aos-offset="200">Top Sellers</h2>
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
           <div className="col-md-12">
-            <ol className="author_list">
+            <ol className="author_list"  data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            data-aos-offset="200"
+            data-aos-once="true">
               {loading &&
                 new Array(12).fill(0).map((_, index) => (
                   <li key={index}>
