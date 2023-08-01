@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import axios from "axios";
 import ReactOwlCarousel from "react-owl-carousel";
 import Skeleton from "../UI/Skeleton";
@@ -23,7 +22,9 @@ const HotCollections = () => {
   }, []);
   return (
     <section id="section-collections" className="no-bottom">
-      <div className="container">
+      <div className="container"   data-aos="fade-right"
+      data-aos-easing="ease"
+      data-aos-delay="100">
         <div className="row">
           <div className="col-lg-12">
             <div className="text-center">

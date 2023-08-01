@@ -27,7 +27,9 @@ const NewItems = () => {
 
   return (
     <section id="section-items" className="no-bottom">
-      <div className="container">
+      <div className="container"  data-aos="fade-left"
+        data-aos-easing="ease-in"
+        data-aos-delay="100">
         <div className="row">
           <div className="col-lg-12">
             <div className="text-center">
