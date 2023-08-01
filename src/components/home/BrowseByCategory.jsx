@@ -17,7 +17,7 @@ const BrowseByCategory = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
-          <div   data-aos="fade-right"
+          <div   data-aos="fad-left"
             data-aos-duration="1000"
             data-aos-delay="300"
             data-aos-offset="200"
@@ -37,7 +37,7 @@ const BrowseByCategory = () => {
               <span>Music</span>
             </Link>
           </div>
-          <div  data-aos="fade-right"
+          <div  data-aos="fade-left"
             data-aos-duration="1000"
             data-aos-delay="300"
             data-aos-offset="200"
@@ -47,7 +47,7 @@ const BrowseByCategory = () => {
               <span>Domain Names</span>
             </Link>
           </div>
-          <div  data-aos="fade-right"
+          <div  data-aos="fade-left"
             data-aos-duration="1000"
             data-aos-delay="300"
             data-aos-offset="200"
@@ -57,7 +57,7 @@ const BrowseByCategory = () => {
               <span>Virtual Worlds</span>
             </Link>
           </div>
-          <div  data-aos="fade-right"
+          <div  data-aos="fade-left"
             data-aos-duration="1000"
             data-aos-delay="300"
             data-aos-offset="200"
@@ -67,7 +67,7 @@ const BrowseByCategory = () => {
               <span>Trading Cards</span>
             </Link>
           </div>
-          <div  data-aos="fade-right"
+          <div  data-aos="fade-left"
             data-aos-duration="1000"
             data-aos-delay="300"
             data-aos-offset="200"
